@@ -1,0 +1,17 @@
+/*  
+    Small	sm	≥576px
+    Medium	md	≥768px
+    Large	lg	≥992px
+  */
+
+header{
+    background-color: blueviolet;
+}
+
+body{
+    background-color: salmon;
+}
+
+.container{
+    background-color: gold;
+}
