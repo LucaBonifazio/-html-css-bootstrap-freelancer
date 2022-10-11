@@ -12,6 +12,14 @@ body{
     background-color: salmon;
 }
 
-.container{
+.cont_1{
     background-color: gold;
+}
+
+.cont_2{
+    background-color: rgb(42, 190, 28);
+}
+
+.cont_3{
+    background-color: rgb(83, 179, 243);
 }
