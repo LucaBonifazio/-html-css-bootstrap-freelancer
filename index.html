@@ -7,152 +7,188 @@
     <title>Bootstrap</title>
     <!-- bootstrap-css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- bootstrap-icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- my style -->
     <link rel="stylesheet" href="css/style.css">
     <!-- bootstrap-js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"feder></script>
 </head>
 <body>
-    <!-- <header>
-        <div class="container cont_1">
-            <div class="row bg-secondary">
-                <div class="col-3 offset-md-1 offset-lg-0">
-                    <div class="strong">Start Bootstrap</div>
-                </div>
-                <div class="col-1 offset-md-4  offset-lg-6 d-none d-md-block">
-                    <div class="text-center">Portfolio</div> 
-                </div>
-                <div class="col-1 d-none d-md-block">
-                    <div class="text-center">About</div> 
-                </div>
-                <div class="col-1 d-none d-md-block">
-                    <div class="text-center">Contact</div> 
-                </div>
-                <div class="col-1 offset-8 d-md-none">
-                    <div class="dropdown">
-                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Portfolio</a></li>
-                            <li><a class="dropdown-item" href="#">About</a></li>
-                            <li><a class="dropdown-item" href="#">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header> -->
-    <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Start Bootstrap</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+
+    <header class="text-white  bg_green">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+            <div class="container">
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                            <a class="nav-link" href="#">Portfolio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                            <a class="nav-link" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link" href="#">Contact</a>
                         </li>
                     </ul>
                 </div>
-              </div>
             </div>
-          </nav>
+        </nav>
+
+        <section class="container text-center">
+            <img src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/avatar.svg" class="col-5 p-3" alt="avatar">
+            <h1>Start Bootstrap</h1>
+            <div class="star"><i class="bi bi-star-fill"></i></div>
+            <p>Graphic artist - Web design - Illustrator</p>
+        </section>
     </header>
 
     <main>
-        <div class="container text-center cont_2">
-            <div class="row justify-content-center mt-5">
-                <div class="col-4 p-3">
-                    <img src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/avatar.svg" class="img-thumbnail" alt="avatar">
-                    <h1>Start Bootstrap</h1>
-                    <div class="m-sm-3 --bs-secondary"></div>
-                    <div>Graphic artist - Web design - Illustrator</div>
-                </div>
-            </div>
-        </div>
-        <div class="container text-center cont_3">
-            
-            <h2>Portfolio</h2>
-            <div class="m-sm-3 --bs-secondary"></div>
 
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-                <div class="col">
-                    <img src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/cabin.png" class="img-thumbnail" alt="photo">
-                </div>
-                <div class="col">
-                    <img src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/cake.png" class="img-thumbnail" alt="photo">
-                </div>
-                <div class="col">
-                    <img src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/circus.png" class="img-thumbnail" alt="photo">
-                </div>
-                <div class="col">
-                    <img src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/game.png" class="img-thumbnail" alt="photo">
-                </div>
-                <div class="col">
-                    <img src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/safe.png" class="img-thumbnail" alt="photo">
-                </div>
-                <div class="col">
-                    <img src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/submarine.png" class="img-thumbnail" alt="photo">
-                </div>
-            </div>
+        <section class="portfolio">
+            <div class="container text-center">
 
-            <div class="container text-center cont_2">
-                <h1>About</h1>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, unde hic eius nisi ratione autem accusantium harum commodi minus minima totam vero tempore nemo doloribus iure incidunt consequatur rem. Fugiat!</p>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, unde hic eius nisi ratione autem accusantium harum commodi minus minima totam vero tempore nemo doloribus iure incidunt consequatur rem. Fugiat!</p>
+                <h2>PORTFOLIO</h2>
+                <div class="col-4 star"></div>
+
+                <div class="overflow-hidden">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                        <div class="col">
+                            <div class="bl_card">
+                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/cabin.png" alt="photo">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bl_card">
+                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/cake.png" alt="photo">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bl_card">
+                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/circus.png" alt="photo">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bl_card">
+                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/game.png" alt="photo">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bl_card">
+                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/safe.png" alt="photo">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="bl_card">
+                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/submarine.png" alt="photo">
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="container text-center cont_3">
-                <h1>Contact</h1>
-                <div class="form">
-                    <input class="form-control" type="text" placeholder="Name">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    <input class="form-control" type="text" placeholder="Phone number">
-                    <input class="form-control" type="text" placeholder="Message">
+            </div>
+        </section>
+
+        <section class="about bg_green">
+
+            <div class="container text-center text-white py-4">
+                <div class="col-10 mx-auto mb-3">
+                    <h2>ABOUT</h2>
+                    <div class="col-4 star"></div>
+                    <div class="overflow-hidden">
+                        <div class="row text-start g-5">
+                            <div class="col-12 col-md-6">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, unde hic eius nisi ratione autem accusantium harum commodi minus minima totam vero tempore nemo doloribus iure incidunt consequatur rem. Fugiat!</p>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, unde hic eius nisi ratione autem accusantium harum commodi minus minima totam vero tempore nemo doloribus iure incidunt consequatur rem. Fugiat!</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <button type="button" class="btn btn-success">Send</button>
+                <a class="btn btn-light">
+                    <i class="fa-solid fa-download"></i> Download
+                </a>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus ratione nulla nostrum molestias deleniti obcaecati reprehenderit, possimus aut nesciunt. Ipsum perspiciatis error dolorum inventore veniam exercitationem eligendi ut expedita in?</p>
+        </section>
+
+        <section class="contact">
+
+            <div class="container">
+                <div class="col-10 mx-auto">
+                    <h2 class="text-center">CONTACT ME</h2>
+                    <div class="col-4 star"></div>
+
+                <form action="" method="post">
+                    <input class="form-control b_form" type="text" placeholder="Name">
+                    <input type="email" class="form-control b_form" id="exampleFormControlInput1" placeholder="name@example.com">
+                    <input class="form-control b_form" type="text" placeholder="Phone number">
+                    <input class="form-control b_form" type="text" placeholder="Message">
+                    <textarea class="form-control b_form" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                    <button type="button" class="btn btn-success mt-2">Send</button>
+                </form>
+
+                </div>
+
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus ratione nulla nostrum molestias deleniti obcaecati reprehenderit, possimus aut nesciunt. Ipsum perspiciatis error dolorum inventore veniam exercitationem eligendi ut expedita in?</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus ratione nulla nostrum molestias deleniti obcaecati reprehenderit, possimus aut nesciunt. Ipsum perspiciatis error dolorum inventore veniam exercitationem eligendi ut expedita in?</p>
-            </div>
-        </div>
+
+        </section>
+
     </main>
 
-    <footer>
-        <div class="row text-center">
-            <div class="col">
-                Testo finale
+    <footer class="bg_blue">
+
+        <section class="information">
+
+            <div class="container text-center text-white">
+                <div class="col-10 mx-auto"> 
+                    <div class="overflow-hidden">
+                        <div class="row text-center g-5">
+                            <div class="col-12 col-md-4">
+                                <h5>LOCATION</h5>
+                                <p>2215 John Daniel Drive Clark, MO 54243</p>
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <h5>AROUND THE WEB</h5>
+                                <a class="a_none px-2" href="#!">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a class="a_none px-2" href="#!">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                                <a class="a_none px-2" href="#!">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                                <a class="a_none px-2" href="#!">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>       
+                            </div>
+                            <div class="col-12 col-md-4">
+                                <h5>ABOUT FREELANCER</h5>
+                                <p>Freelance is a free to use, open source Bootstrap theme created by <a class="a_green" href="#!">Start Bootstrap</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+
+        </section>
+
+        <div class="text-center text-white bg_dark-blue p-3">
+            Copyright <i class="bi bi-c-circle"></i> your website 2019
         </div>
     </footer>
 </body>
