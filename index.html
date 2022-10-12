@@ -31,7 +31,7 @@
                 <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse" id="navbarScroll">
+                <div class="collapse navbar-collapse flex-grow-0" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Portfolio</a>
@@ -48,9 +48,15 @@
         </nav>
 
         <section class="container text-center">
-            <img src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/avatar.svg" class="col-5 p-3" alt="avatar">
+            <img src="./bootstrap_freelancer/img/avatar.svg" class="col-5 p-3" alt="avatar">
             <h1>Start Bootstrap</h1>
-            <div class="star"><i class="bi bi-star-fill"></i></div>
+
+            <div class="star-content">
+                <div class="star"></div>
+                <i class="bi bi-star-fill"></i>
+                <div class="star"></div>
+            </div>
+
             <p>Graphic artist - Web design - Illustrator</p>
         </section>
     </header>
@@ -61,38 +67,61 @@
             <div class="container text-center">
 
                 <h2>PORTFOLIO</h2>
-                <div class="col-4 star"></div>
+
+                <div class="star-content">
+                    <div class="star_black"></div>
+                    <i class="bi bi-star-fill"></i>
+                    <div class="star_black"></div>
+                </div>
 
                 <div class="overflow-hidden">
                     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
                         <div class="col">
                             <div class="bl_card">
-                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/cabin.png" alt="photo">
+                                <img class="img-fluid" src="./bootstrap_freelancer/img/cabin.png" alt="photo">
+                                <div class="icon_plus">
+                                    <i class="bi bi-plus"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="bl_card">
-                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/cake.png" alt="photo">
+                                <img class="img-fluid" src="bootstrap_freelancer/img/cake.png" alt="photo">
+                                <div class="icon_plus">
+                                    <i class="bi bi-plus"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="bl_card">
-                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/circus.png" alt="photo">
+                                <img class="img-fluid" src="bootstrap_freelancer/img/circus.png" alt="photo">
+                                <div class="icon_plus">
+                                    <i class="bi bi-plus"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="bl_card">
-                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/game.png" alt="photo">
+                                <img class="img-fluid" src="bootstrap_freelancer/img/game.png" alt="photo">
+                                <div class="icon_plus">
+                                    <i class="bi bi-plus"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="bl_card">
-                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/safe.png" alt="photo">
+                                <img class="img-fluid" src="bootstrap_freelancer/img/safe.png" alt="photo">
+                                <div class="icon_plus">
+                                    <i class="bi bi-plus"></i>
+                                </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="bl_card">
-                                <img class="img-fluid" src="../-html-css-bootstrap-freelancer/bootstrap_freelancer/img/submarine.png" alt="photo">
+                                <img class="img-fluid" src="bootstrap_freelancer/img/submarine.png" alt="photo">
+                                <div class="icon_plus">
+                                    <i class="bi bi-plus"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -106,7 +135,13 @@
             <div class="container text-center text-white py-4">
                 <div class="col-10 mx-auto mb-3">
                     <h2>ABOUT</h2>
-                    <div class="col-4 star"></div>
+
+                    <div class="star-content">
+                        <div class="star"></div>
+                        <i class="bi bi-star-fill"></i>
+                        <div class="star"></div>
+                    </div>
+
                     <div class="overflow-hidden">
                         <div class="row text-start g-5">
                             <div class="col-12 col-md-6">
@@ -130,19 +165,22 @@
             <div class="container">
                 <div class="col-10 mx-auto">
                     <h2 class="text-center">CONTACT ME</h2>
-                    <div class="col-4 star"></div>
 
-                <form action="" method="post">
-                    <input class="form-control b_form" type="text" placeholder="Name">
-                    <input type="email" class="form-control b_form" id="exampleFormControlInput1" placeholder="name@example.com">
-                    <input class="form-control b_form" type="text" placeholder="Phone number">
-                    <input class="form-control b_form" type="text" placeholder="Message">
-                    <textarea class="form-control b_form" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                    <button type="button" class="btn btn-success mt-2">Send</button>
-                </form>
+                    <div class="star-content">
+                        <div class="star_black"></div>
+                        <i class="bi bi-star-fill"></i>
+                        <div class="star_black"></div>
+                    </div>
 
+                    <form action="" method="post">
+                        <input class="form-control b_form" type="text" placeholder="Name">
+                        <input type="email" class="form-control b_form" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <input class="form-control b_form" type="text" placeholder="Phone number">
+                        <input class="form-control b_form" type="text" placeholder="Message">
+                        <textarea class="form-control b_form" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                        <button type="button" class="btn btn-success mt-2">Send</button>
+                    </form>
                 </div>
-
             </div>
 
         </section>
