@@ -4,8 +4,9 @@
     Large	lg	≥992px
   */
 
-html{
+body{
     font-family: 'Montserrat', sans-serif;
+    margin-top: 56px;
 }
 
 .bg_green{
@@ -106,7 +107,7 @@ section{
 
 .bl_card .icon_plus:hover{
     opacity: 1;
-}
+} */
 
 /* hover */
 
@@ -116,4 +117,4 @@ section{
 
 .bl_card{
     opacity: 1;
-}
+} 
